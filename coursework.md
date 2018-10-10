@@ -30,8 +30,15 @@ Introduce the selected algorithms and datasets, and specify why you have selecte
 
 ------
 
-In this study we will work with the following two datasets : "*Red and White Wine Quality EDA*"[^8] and the MNIST dataset[^9].
-...
+To complete this study, two datasets were selected :
+- "Red and White Wine Quality EDA"[^8][^9] dataset
+	* **task** : determine the influence of each chemical properties on the mark of a wine
+	* **key properties** : 3.000 (?) entries, each containing 11 chemical properties and three marks from 0 to 10
+	* **strategy** : 
+- MNIST[^10] dataset (commonly used in machine learning)
+	* **task** : recognise handwritten digits
+	* **key properties** : 60.000 (?) entries, each one being a label and an array of 28x28 bytes (a byte representing a pixel of the digit's image)
+	* **strategy** : 
 
 -----
 
@@ -142,6 +149,6 @@ Provide a paragraph to discuss your results. If improvements (or performance det
 [^5]: python.org. 2018. PythonForArtificialIntelligence - Python Wiki. [ONLINE] Available at: https://wiki.python.org/moin/PythonForArtificialIntelligence. [Accessed 10 October 2018].
 [^6]: Russell, S., Norvig, P., 2009. Artificial Intelligence: A Modern Approach, 3rd edition, Pearson. doi:10.1017/S0269888900007724
 [^7]: [Official website of the project](https://matplotlib.org/)
-
-[^8]: https://www.kaggle.com/danielpanizzo/red-and-white-wine-quality
-[^9]: https://www.kaggle.com/c/digit-recognizer
+[^8]: Kaggle.com. 2017. Red and White Wine Quality | Kaggle. [ONLINE] Available at: https://www.kaggle.com/danielpanizzo/red-and-white-wine-quality/notebook. [Accessed 10 October 2018].
+[^9]: Cortez, P., Cerdeira, A., Almeida, F., Matos, T., Reis, J., 2009. Modeling wine preferences by data mining from physicochemical properties. Decision Support Systems 47, 547–553. doi:10.1016/j.dss.2009.05.016
+[^10]: yann.lecun.com. ????. MNIST handwritten digit database, Yann LeCun, Corinna Cortes and Chris Burges. [ONLINE] Available at: http://yann.lecun.com/exdb/mnist/. [Accessed 10 October 2018].
