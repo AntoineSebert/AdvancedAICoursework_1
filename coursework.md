@@ -1,24 +1,22 @@
 # Impact of the variation of hyper-parameters in artificial neural networks
-[Antoine Sébert](mailto:antoine.sb@orange.fr)[^1]
-
-> "*A convincing demonstration of correctness being impossible as long as the mechanism is regarded as a black box, our only hope lies in not regarding the mechanism as a black box.*"
-
-Edsger W. Dijkstra, "Notes On Structured Programming", 1970
+[Anthony Sébert](mailto:antoine.sb@orange.fr)[^1] , october 2018
 
 ## Abstract
 
 Use the abstract to indicate at a very high level what you set out to achieve in your comparative study and your key finding. This should not be more than 5 sentences or so.
 
-### Keywords and content descriptors
+-----
+
+The recent global interest in the artificial intelligence domain bring with him a whole area of interesting new challenges and techniques. With the power of bayesian inferences, powerful statistical methods, machine learning appears as one of the key domains to solve tomorrow's problems in a world where AIs will be part of everyday's life, hidden from our eyes yet monitoring and operating our environment.
+This paper will discuss the impact on the results of the variation of the **hyper-parameters** in supervised learning using an **Artificial Neural Network**[^2], the **k-Nearest Neighbour**[^3], and a combination of both. The implementation will be written in Python 3.7[^4], widely adopted in scientific computing in general and in artificial intelligence in particular[^5][^6], and the 2D plotting library matplotlib[^7] to visualize the results.
+
+## Categories and subject Descriptors
 
 **Computing methodologies~Neural networks**
 Computing methodologies~Supervised learning by classification
 Computing methodologies~Supervised learning by regression
 
-The recent global interest in the artificial intelligence domain bring with him a whole area of interesting new challenges and techniques. With the power of bayesian inferences, powerful statistical methods, machine learning appears as one of the key domains to solve tomorrow's problems in a world where AIs will be part of everyday's life, hidden from our eyes yet monitoring and operating our environment.
-This paper will discuss the impact on the results of the variation of the **hyper-parameters** in supervised learning using an **Artificial Neural Network**[^2], the **k-Nearest Neighbour**[^3], and a combination of both. The implementation will be written in Python 3.7[^4], widely adopted in scientific computing in general and in artificial intelligence in particular[^5][^6], and the 2D plotting library matplotlib[^7] to visualize the results.
-
------
+------
 
 ## Comparative study setup
 
@@ -34,11 +32,11 @@ To complete this study, two datasets were selected :
 - "Red and White Wine Quality EDA"[^8][^9] dataset
 	* **task** : determine the influence of each chemical properties on the mark of a wine
 	* **key properties** : 3.000 (?) entries, each containing 11 chemical properties and three marks from 0 to 10
-	* **strategy** : 
+	* **strategy** : ...
 - MNIST[^10] dataset (commonly used in machine learning)
 	* **task** : recognise handwritten digits
 	* **key properties** : 60.000 (?) entries, each one being a label and an array of 28x28 bytes (a byte representing a pixel of the digit's image)
-	* **strategy** : 
+	* **strategy** : ...
 
 -----
 
