@@ -55,6 +55,8 @@ x-axis is devoted to the parameter setting.
 
 #### MNIST dataset
 
+See [src/ann.ipynb#MNIST dataset](src/ann.ipynb#MNIST dataset) for the implementation of the tests.
+
 ##### Epochs
 
 The study will be carried upon the following values (with the default value in bold) : 1, 10, **100**, 1000, 10000
@@ -77,6 +79,8 @@ The study will be carried upon the following values (with the default value in b
 ![learning rate hyperparameter results](images/ann_learning_rates_mnist.png)
 
 #### "Red and White Wine Quality EDA" dataset
+
+See [src/ann.ipynb#"Red and White Wine Quality EDA" dataset](src/ann.ipynb#"Red and White Wine Quality EDA" dataset) for the implementation of the tests.
 
 ##### Epochs
 
@@ -109,7 +113,7 @@ A paragraph should then be provided to discuss the results, and to explain why y
 
 ...
 
-## k-nearest neighbour
+## K-nearest neighbour
 
 ### Hyperparameters 
 
