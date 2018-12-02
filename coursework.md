@@ -1,4 +1,5 @@
 # Impact of the variation of hyper-parameters in artificial neural networks
+
 [Anthony Sébert](mailto:antoine.sb@orange.fr)[^1] , october 2018
 
 ## Abstract
